@@ -2,7 +2,10 @@
 ## solver
 yaku_solver  
 **夜ぐらいしか動かないgit**  
-  <title>solver_last_last</title>
+ <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<document>
+  <title>パズルソルバー - アルゴリズムと使用方法</title>
   
   <section name="アルゴリズム">
     
@@ -72,3 +75,5 @@ yaku_solver
     </step>
     
   </section>
+  
+</document>
