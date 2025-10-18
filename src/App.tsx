@@ -5,6 +5,7 @@ import { Layout } from './components/Layout';
 import { AuthForm } from './components/AuthForm';
 import { WardrobePage } from './pages/WardrobePage';
 import { CoordinationPage } from './pages/CoordinationPage';
+import { TimetablePage } from './pages/TimetablePage';
 
 function AppContent() {
   const { user, loading } = useAuth();
@@ -27,6 +28,7 @@ function AppContent() {
         <Route path="/" element={<Navigate to="/wardrobe" replace />} />
         <Route path="/wardrobe" element={<WardrobePage />} />
         <Route path="/coordination" element={<CoordinationPage />} />
+        <Route path="/timetable" element={<TimetablePage />} />
       </Routes>
     </Layout>
   );

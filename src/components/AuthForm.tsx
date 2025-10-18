@@ -37,7 +37,7 @@ export function AuthForm() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-bold text-slate-900">
-            AI Wardrobe
+            PrepMate
           </h2>
           <p className="mt-2 text-center text-sm text-slate-600">
             {isSignUp ? 'アカウントを作成' : 'アカウントにサインイン'}
